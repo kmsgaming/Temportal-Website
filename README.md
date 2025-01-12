@@ -31,7 +31,7 @@ Each game is represented by a dictionary with properties defining the informatio
 Where you upload your games and screenshots is up to you as you specify the link for each of them in the JSON data but there are specific folders made in the repository for ease of organization. When adding new games to the JSON files, you may need to press CTRL+F5 to do a full refresh of the page to see your changes.
 
 ### Modifying the header and footer
-The header and footer files are located inside the `include` folder and are added to the webpages with JQuery. You can edit them as you would any other HTML file. One hurdle is that doing CTRL+F5 to do a full refresh on the page doesn't always update the header/footer so you might need to manually clear all of your browser data for your web server or opening the website in Incognito Mode.
+The header and footer files are located inside the `include` folder and are added to the webpages with JQuery. You can edit them as you would any other HTML file. One hurdle is that doing CTRL+F5 to do a full refresh on the page doesn't always update the header/footer so you might need to manually clear all of your browser data for your website or opening the website in Incognito Mode.
 
 ## A Personal Request
 Please don't flood webhosters like Neocities with a bunch of Temportal clones. If you want to create a fork of Temportal and put games on it, I request that you put your own twist on it and not just leave a stock installation with no changes. I imagine a lot of people using this are going to be young kids making their first (and hopefully last (get out while you still can)) revival so I strongly encourage you to try something unique with this instead of leaving it as an empty website with nothing to do.
