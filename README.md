@@ -2,7 +2,7 @@
  An open source version of the [Temportal](https://temportal.neocities.org) website with sample places and minigames.
 
 ## How to Use
-If you want to run Temportal locally, you can install a program or package like [http-server](https://www.npmjs.com/package/http-server) and run it inside the directory with all the website files. You can also upload the files to a static webhoster like GitHub Pages (By Forking) or Neocities (By Downloading as ZIP) and run it that way.
+If you want to run Temportal locally, you can install a program or package like [http-server](https://www.npmjs.com/package/http-server) and run it inside the directory with all the website files. You can also upload the files to a static webhoster like Neocities and run it that way.
 
 ### Running with http-server
 To run Temportal with http-server installed, open Command Prompt and navigate to the folder on your computer with the Temportal website files. Enter `http-server` and a web server should start locally on your machine. The window should tell you what link to go to in your web browser but it should default to `localhost:8080`. If you want to stop the server, you can press CTRL+C with the Command Prompt window open.
