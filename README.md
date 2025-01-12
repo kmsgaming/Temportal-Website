@@ -12,19 +12,19 @@ The lists of places and minigames are handled by two JSON files which are then p
 
 Each game is represented by a dictionary with properties defining the information that should be displayed on the website. Here is what an entry for a game looks like in `places.json`.
 ```javascript
-		{
-			"id": 1, // The id of the game, used by browse.js to create links to the pages. 
-			"name": "Building Demo", // The name
-			"description": "A demo place with all available tools and some buildings.", // The description
-			"thumbnail": "/screenshots/places/1/Level.jpg", // The thumbnail. For places, I use 440x350 and 320x240 for minigames.
-			"screenshots": [], // Intended to be an array of image URLs. No function implemented.
-			"released": "2025-01-11", // Release date
-			"data": "/data/places/1.rbxl", // Link to the game. Depending on your hoster, you might need to upload the games somewhere else.
-			"author": "Gev", // The author of the game.
-			"tag":  "Builds", // The tag or genre used to categorize the game.
-			"client": "2007E", // The reccomended client to play the game with. This has no effect on the pages for minigames.
-			"mplink": "" // Only works with places. If a link is added, a "Visit Online" button will appear on the place's page.
-		},
+{
+	"id": 1, // The id of the game, used by browse.js to create links to the pages. 
+	"name": "Building Demo", // The name
+	"description": "A demo place with all available tools and some buildings.", // The description
+	"thumbnail": "/screenshots/places/1/Level.jpg", // The thumbnail. For places, I use 440x350 and 320x240 for minigames.
+	"screenshots": [], // Intended to be an array of image URLs. No function implemented.
+	"released": "2025-01-11", // Release date
+	"data": "/data/places/1.rbxl", // Link to the game. Depending on your hoster, you might need to upload the games somewhere else.
+	"author": "Gev", // The author of the game.
+	"tag":  "Builds", // The tag or genre used to categorize the game.
+	"client": "2007E", // The reccomended client to play the game with. This has no effect on the pages for minigames.
+	"mplink": "" // Only works with places. If a link is added, a "Visit Online" button will appear on the place's page.
+},
 ```
 ###### Do not copy this code with the comments included or it will break. 
 
