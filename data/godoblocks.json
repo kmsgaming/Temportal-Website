@@ -1,0 +1,44 @@
+{	
+	"places": [
+		
+		{
+			"id": 1,
+			"name": "GodoBlocks G",
+			"description": "",
+			"thumbnail": "/screenshots/godoblocks/1/thumbnail.jpg",
+			"screenshots": [],
+			"released": "2022-05-04",
+			"data": "/data/godoblocks/1.gdbl",
+			"author": "Gev",
+			"tag":  "Builds",
+			"client": "GodoBlocks"
+		},
+
+		{
+			"id": 2,
+			"name": "Crossroads v2",
+			"description": "Crossroads but with no landmarks. Hmmm...",
+			"thumbnail": "/screenshots/godoblocks/2/thumbnail.jpg",
+			"screenshots": [],
+			"released": "2022-06-29",
+			"data": "/data/godoblocks/2.gdbl",
+			"author": "Gev",
+			"tag":  "Builds",
+			"client": "GodoBlocks"
+		},
+
+		{
+			"id": 3,
+			"name": "Defend It!",
+			"description": "Keep the spheres from rolling into the lava by using the SpawnGun.",
+			"thumbnail": "/screenshots/godoblocks/3/thumbnail.jpg",
+			"screenshots": [],
+			"released": "2022-06-29",
+			"data": "/data/godoblocks/3.gdbl",
+			"author": "Gev",
+			"tag":  "Minigames",
+			"client": "GodoBlocks"
+		}
+		
+	]
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Temportal</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="jquery.js"></script>
+	<script src="browse.js"></script>
+	<script> 
+      $(function(){
+        $("#header").load("include/header.html");
+        $("#footer").load("include/footer.html");
+      });
+    </script> 
+  </head>
+  
+  <body>
+	<div class="contents">
+      <div id="header"></div>
+	  
+	  <h1>Games</h1>
+	  <table>
+	    <tbody style="vertical-align:top;">
+		  
+		  <tr>
+		    <td width=160px>
+			  <img src="/screenshots/places/1/LevelSmall1.png" width=144px height=98px alt="thumbnail">
+			  &nbsp;
+			  <br>
+			  <img src="/screenshots/places/1/LevelSmall2.png" width=144px height=98px alt="thumbnail">
+			</td>
+			<td>
+			  <h1 style="color:green;">Building Demo</h1>
+			  <p>A demo place with all available tools and some buildings. How riveting!</p>
+			</td>
+			<td width=60px>
+			  <a href="/place?id=12">
+			    <img width=53 height=54 src="/images/PlayButton_Green.png" alt="Play">
+			  </a>
+			</td>
+			<td width=300px>
+			  <img src="/screenshots/places/1/LevelLarge.png" width=292px height=198px alt="thumbnail">
+			</td>
+		  </tr>
+		  
+		  <tr>
+		    <td width=160px>
+			  <img src="/screenshots/places/2/LevelSmall1.png" width=144px height=98px alt="thumbnail">
+			  &nbsp;
+			  <br>
+			  <img src="/screenshots/places/2/LevelSmall2.png" width=144px height=98px alt="thumbnail">
+			</td>
+			<td>
+			  <h1 style="color:red;">Fighting Arena</h1>
+			  <p>A demo place for fighting with Rockets and Slingshots. No swords on these heights though.</p>
+			</td>
+			<td width=60px>
+			  <a href="/place?id=17">
+			    <img width=53 height=54 src="/images/PlayButton_Red.png" alt="Play">
+			  </a>
+			</td>
+			<td width=300px>
+			  <img src="/screenshots/places/2/LevelLarge.png" width=292px height=198px alt="thumbnail">
+			</td>
+		  </tr>
+		  
+		  <tr>
+		    <td width=160px>
+			  <img src="/screenshots/places/3/LevelSmall1.png" width=144px height=98px alt="thumbnail">
+			  &nbsp;
+			  <br>
+			  <img src="/screenshots/places/3/LevelSmall2.png" width=144px height=98px alt="thumbnail">
+			</td>
+			<td>
+			  <h1 style="color:orange;">Spooky Demo</h1>
+			  <p>A demo place that takes place at night. There <u>no ghosts whatsoever.</u></p>
+			</td>
+			<td width=60px>
+			  <a href="/place?id=14">
+			    <img width=53 height=54 src="/images/PlayButton_Orange.png" alt="Play">
+			  </a>
+			</td>
+			<td width=300px>
+			  <img src="/screenshots/places/3/LevelLarge.png" width=292px height=198px alt="thumbnail">
+			</td>
+		  </tr>
+		  
+	    </tbody>
+	  </table>
+	  
+	  <div id="footer"></div>
+    </div>
+  </body>
+</html>

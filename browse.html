@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse - Temportal</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="jquery.js"></script>
+	<script src="browse.js"></script>
+	<script> 
+      $(function(){
+        $("#header").load("include/header.html");
+        $("#footer").load("include/footer.html");
+      });
+    </script> 
+  </head>
+  
+  <body>
+	<div class="contents">
+      <div id="header"></div>
+	  
+	  <h1>Browse</h1>
+	  <p><form autocomplete="off" id="browseForm" action="/browse?">
+	    <input type="text" name="search" id="search" size=32 placeholder="Search">
+		<select name="sort" id="sort">
+		  <option value="addasc">Recently Added (Ascending)</option>
+		  <option value="adddesc">Recently Added (Descending)</option>
+		  <option value="new">Newest Places</option>
+		  <option value="old">Oldest Places</option>
+		</select>
+		<select name="tag" id="tag_places">
+		  <option value="">No Tag</option>
+		  <option value="fighting">Fighting</option>
+		  <option value="builds">Builds</option>
+		  <option value="model usage">Model Usage</option>
+		  <option value="scripting">Scripting</option>
+		  <option value="starter places">Starter Places</option>
+		  <option value="obstacle courses">Obstacle Courses</option>
+		</select>
+		<select disabled name="tag" id="tag_godoblocks">
+		  <option value="">No Tag</option>
+		  <option value="minigames">Minigames</option>
+		  <option value="builds">Builds</option>
+		  <option value="tests">Developer Tests</option>
+		</select>
+		<select name="category" id="category" onchange="updateTags()">
+		  <option value=0>Roblox Places</option>
+		  <option value=1>GodoBlocks Games</option>
+		</select>
+		<input type="hidden" name="page" id="page" value=1>
+		<input type="submit" value="Search">
+	  </form></p>
+	  <p style="display:none;" id="notfound">No places could be found with your search.</p>
+	  <table id="browseTable" class="browseTable" width=100% border=1 cellspacing=0 rules="rows">
+	    <tbody id="places">
+		  <tr class="browseHeader">
+	        <td width=140px>Places</td>
+			<td width=30%>Name</td>
+			<td>Author</td>
+			<td>Date</td>
+		  </tr>
+		</tbody>
+	  </table>
+	  
+	  <div id="footer"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+{	
+	"places": [
+	
+		{
+			"id": 1,
+			"name": "Building Demo",
+			"description": "A demo place with all available tools and some buildings.",
+			"thumbnail": "/screenshots/places/1/Level.jpg",
+			"screenshots": [],
+			"released": "2025-01-11",
+			"data": "/data/places/1.rbxl",
+			"author": "Gev",
+			"tag":  "Builds",
+			"client": "2007E",
+			"mplink": ""
+		},
+		
+		{
+			"id": 2,
+			"name": "Fighting Demo",
+			"description": "A demo place for fighting with Rockets and Slingshots.",
+			"thumbnail": "/screenshots/places/2/Level.jpg",
+			"screenshots": [],
+			"released": "2025-01-11",
+			"data": "/data/places/2.rbxl",
+			"author": "Gev",
+			"tag": "Fighting",
+			"client": "2007E",
+			"mplink": ""
+		},
+	
+		{
+			"id": 3,
+			"name": "Spooky Demo",
+			"description": "A demo place that takes place at night.",
+			"thumbnail": "/screenshots/places/3/Level.jpg",
+			"screenshots": [],
+			"released": "2025-01-11",
+			"data": "/data/places/3.rbxl",
+			"author": "Gev",
+			"tag": "Builds",
+			"client": "2007E",
+			"mplink": ""
+		}
+	]
+}

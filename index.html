@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temportal</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="jquery.js"></script>
+	<script src="index.js"></script>
+	<script> 
+      $(function(){
+        $("#header").load("include/header.html");
+        $("#footer").load("include/footer.html");
+      });
+    </script> 
+  </head>
+  
+  <body>
+	<div class="contents">
+      <div id="header"></div>
+	  
+	  <table>
+	    <tbody style="vertical-align:top;">
+		  <tr>
+		    <td width=80% style="padding-right:10%;">
+	          <h1>Welcome to TEMPORTAL</h1>
+	          <p>Classic ROBLOX games for classic ROBLOX clients.</p>
+			  <p>This site features a collection of ROBLOX games from 2006 to 2008 that are fully compatible with their respective clients. </p>
+			  <div class="profileDiv">
+			    <p id="hosting">Currently hosting !NUM1 places and !NUM2 minigames.</p>
+				<img width=440px src="/images/homePhoto.png" alt="Adventure Awaits...">
+				<br><br>
+			  </div>
+			</td>
+			<td id="places" class="profileDiv">
+			  <p>New Places</p>
+			</td>
+		  </tr>
+		</tbody>
+	  </table>
+	  
+	  <div id="footer"></div>
+	
+    </div>
+  </body>
+</html>

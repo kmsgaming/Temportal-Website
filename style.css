@@ -1,0 +1,130 @@
+body {
+	background: white;
+    font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 24px;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+img {
+  max-width:100%; 
+  height: auto;
+}
+
+.contents {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+}
+
+.banner {
+  background-image: url("/images/banner.png");
+  height: 72px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: solid 1px black;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+
+.navigation {
+  background-color: #6e99c9;
+  border-bottom: solid 1px black;
+  margin-bottom: 8px;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  font-size: 14pt;
+  line-height: 2em;
+  text-align: center;
+  color: white;
+}
+
+.navigation a:link {
+  color: white;
+}
+
+.navigation a:visited {
+  color: white;
+}
+
+.footer {
+  text-align: center;
+}
+
+.browseTable {
+  border-collapse: collapse;
+  margin-bottom: 0px;
+  background-color:"White";
+  border-color:"#CCCCCC";
+  border-width:1px;
+  border-style:solid;
+}
+
+.browseHeader {
+  background-color: #6e99c9;
+  color: white;
+}
+
+.profileDiv {
+  width: 100%;
+  height: 100%;
+  background-color: lightsteelblue;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  font-size: 14pt;
+  text-align: center;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+
+}
+
+.profileDesc {
+  font-size: 9pt;
+}
+
+.Button
+{
+	cursor: pointer;
+	background-color: #fff;
+	border: solid 1px #333;
+	color: #333;
+	font-family: Verdana, Sans-Serif;
+    font-size: 0.9em;
+	text-decoration: none;
+}
+
+.Button:link, .Button:visited
+{
+	border: solid 1px #777;
+	color: #777;
+}
+
+.Button:hover, .Button:active
+{
+    background-color: #6e99c9;
+	border: solid 1px #000;
+	color: #fff;
+}
+
+.thumbnailIcon {
+	object-fit: cover;
+	width: 120px;
+	height: 70px;
+	padding: 2px;
+}
+
+select:disabled
+{
+	display: none
+}

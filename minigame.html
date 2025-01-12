@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minigame - Temportal</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="jquery.js"></script>
+	<script src="minigame.js"></script>
+	<script> 
+      $(function(){
+        $("#header").load("include/header.html");
+        $("#footer").load("include/footer.html");
+      });
+    </script> 
+  </head>
+  
+  <body>
+	<div class="contents">
+      <div id="header"></div>
+      <p id="placeError" style="display:none;">Error: Minigame does not exist. If you believe it does exist, do CTRL+F5 to hard refresh the page.</p>
+	  <table id="placeContents" width=100% cellspacing=16>
+	    <tbody style="vertical-align: top;">
+		  <tr>
+		    <td width=40%>
+	          <div class="profileDiv">
+			    <p>Author</p>
+			    <p id="author" class="profileDesc">Author</p>
+			    <p>Created</p>
+				<p id="released" class="profileDesc">09-22-2022</p>
+				<p>Client Version</p>
+				<a href="https://godoblocks.neocities.org/install#:~:text=GodoBlocks%20Beta%208.2_02">
+				  <p id="client" class="profileDesc">GodoBlocks</p>
+				</a>
+				<p>Place Tag</p>
+				<p id="tag" class="profileDesc">Minigames</p>
+			  </div>
+			</td>
+			<td width= 60%>
+	          <div class="profileDiv">
+			    <p id="name">Place</p>
+				<img id="thumbnail" src="" alt="thumbnail">
+				<p id="description" class="profileDesc">Description</p>
+				<p>
+				  <a id="download" href="about:blank" download><button class="Button">Play Game!</button></a>
+				</p>
+			  </div>
+			</td>
+		  </tr>
+	    </tbody>
+	  </table>
+	  
+	  <div id="footer"></div>
+	
+    </div>
+  </body>
+</html>
